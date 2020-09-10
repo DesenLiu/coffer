@@ -1,0 +1,120 @@
+.label{
+    /deep/ .van-nav-bar__title {
+        font-size: 20px;
+    }
+    /deep/ .van-icon{
+        color: black;
+
+    }
+    .container{
+        margin: 0 10px;
+    }
+    .banner{
+        width: 100%;
+        border-bottom: 1px solid rgb(161,161,161);
+    }
+    .banner-title{
+        width: calc(~"100% - 6px");
+        height: 40px;
+        // background-color: red;
+        font-size: 18px;
+        padding-left: 6px;
+        line-height: 40px;
+    }
+    .countTotal{
+        margin-right: 6px;
+        color: gray;
+    }
+    .count{
+        font-size: 22px;
+        color: black;
+    }
+    .banner-img{
+        margin: 0 15px;
+        border-radius: 20px;
+        overflow: hidden;
+        width: calc(~"100% - 30px");
+
+        // 防止轮播图拖动时候文字出现抖动
+        transform: translateZ(0);
+    }
+    /deep/ .my-swipe .van-swipe-item {
+        color: #fff;
+        font-size: 20px;
+        line-height: 150px;
+        text-align: center;
+        // background-color: #39a9ed;
+      }
+    /deep/ .van-swipe{
+        position: static;
+    }
+    .ban{
+        margin: 0 auto;
+        
+    }
+    /deep/ .van-swipe-item{
+        width: 100%;
+        
+    }
+    /deep/ .my-swipe .van-swipe-item{
+        line-height: 0;
+    }
+    .banner-text{
+        margin: 15px;
+        .banner-ttop{
+            font-size: 16px;
+            font-weight: bold;
+
+            // 单行文本隐藏
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .banner-des{
+            margin-top: 4px;
+            color: rgb(161,161,161);
+            height: 14px;
+            .des-left{
+                width: calc(~"100% - 50px");
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .des-right{
+                width: 50px;
+                color: #e4be6b;
+
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            
+        }
+    }
+
+    .introduce{
+        width: 100%;
+        .introduce-title{
+            text-align: center;
+            font-size: 14px;
+            color:#232321
+        }
+        .introify{
+            width: calc(~"100% - 20px");
+            display: flex;
+            margin: 0 10px;
+            & > div{
+                flex: 1;
+                text-align: center;
+                .intro-img{
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 auto;
+                }
+                .text{
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+}
