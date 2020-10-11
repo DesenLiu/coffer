@@ -18,34 +18,34 @@
 
     <div class="container">
       <van-cell
-        :icon="require('../../assets/images/订单.png')"
+        :icon="require('../../assets/images/order.png')"
         title="我的订单"
         is-link
         @click="$router.push({name:'Order'})"
       />
       <van-cell
-        :icon="require('../../assets/images/收藏.png')"
+        :icon="require('../../assets/images/isLike.png')"
         title="我的收藏"
         is-link
         @click="$router.push({name:'Mylike'})"
       />
       <div class="line"></div>
       <van-cell
-        :icon="require('../../assets/images/地址.png')"
+        :icon="require('../../assets/images/address.png')"
         title="我的地址"
         is-link
         @click="$router.push({name:'Myaddress'})"
       />
-      <van-cell :icon="require('../../assets/images/优惠卷.png')" title="优惠卷" is-link />
+      <van-cell :icon="require('../../assets/images/yhj.png')" title="优惠卷" is-link />
       <div class="line"></div>
       <van-cell
-        :icon="require('../../assets/images/安全.png')"
+        :icon="require('../../assets/images/aq.png')"
         title="账号安全"
         is-link
         @click="slideCell"
       />
       <van-cell
-        :icon="require('../../assets/images/设置.png')"
+        :icon="require('../../assets/images/sz.png')"
         title="设置"
         is-link
         @click="$router.push({name:'MyInfo'})"

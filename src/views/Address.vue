@@ -41,7 +41,7 @@
       <div class="shop-item">
         <div class="item-top clearfix">
           <div class="fl item-icon">
-            <img class="auto-img" :src="require('../assets/images/待配送.png')" alt />
+            <img class="auto-img" :src="require('../assets/images/dps.png')" alt />
           </div>
           <div class="fl item-title">订单待付款</div>
           <div class="fr item-right">

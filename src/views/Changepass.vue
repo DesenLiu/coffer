@@ -33,7 +33,7 @@
           <template #button>
             <van-button
               size="small"
-              color="#0C34BA"
+              color="#e4be6b"
               :disabled="isSend"
               @click="sendValidCode"
             >{{text}}</van-button>

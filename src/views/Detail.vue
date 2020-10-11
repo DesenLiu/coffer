@@ -59,7 +59,7 @@
             </div>
             <div class="share fr">
               <div class="share-icon">
-                <img class="auto-img" src="../assets/images/分享.png" alt />
+                <img class="auto-img" src="../assets/images/fx.png" alt />
               </div>
             </div>
           </div>
@@ -77,8 +77,8 @@
           color="#ff5000"
           @click="like"
         />
-        <van-goods-action-button type="warning" text="加入购物车" @click="addShop" />
-        <van-goods-action-button type="danger" text="立即购买" />
+        <van-goods-action-button text="加入购物车" @click="addShop" class="addShop"/>
+        <van-goods-action-button text="立即购买" class="addbuy"/>
       </van-goods-action>
     </div>
   </div>

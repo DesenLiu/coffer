@@ -28,7 +28,7 @@
             v-model="loginObj.password"
             class="serverPadding"
             :type="isActive ? 'text':'password'"
-            left-icon="manager"
+            left-icon="passed"
             name="密码"
             placeholder="请输入您的密码"
             :right-icon="isActive ? 'eye-o':'closed-eye'"
@@ -66,7 +66,7 @@
         <div class="box-list clearfix">
           <div class="fl">
             <div class="pd-box">
-              <img class="auto-img" src="../assets/images/微信.png" alt />
+              <img class="auto-img" src="../assets/images/wx.png" alt />
             </div>
           </div>
           <div class="fl">
@@ -76,7 +76,7 @@
           </div>
           <div class="fl">
             <div class="pd-box">
-              <img class="auto-img" src="../assets/images/新浪.png" alt />
+              <img class="auto-img" src="../assets/images/xl.png" alt />
             </div>
           </div>
         </div>
